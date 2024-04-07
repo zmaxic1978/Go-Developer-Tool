@@ -12,9 +12,20 @@ func main() {
 	fmt.Println("Задача 5.1 и 5.2")
 	fmt.Printf("Значение: %s, адрес: %x\n\n", *pntStr, pntStr)
 
-	fmt.Println("Задача 5.3 и 5.4")
+	fmt.Println("Задача 5.3")
 	*pntStr = "Новая поменянная строка"
 	fmt.Printf("Значение: %s, адрес: %x\n\n", *pntStr, pntStr)
+
+	fmt.Println("Задача 5.4")
+	var valNum1 int = 100
+	var valNum2 int = 200
+	var valNum3 int = 300
+	var valNum4 int = 400
+	fmt.Printf("Значение: %d, адрес: %x\n", valNum1, &valNum1)
+	fmt.Printf("Значение: %d, адрес: %x\n", valNum2, &valNum2)
+	fmt.Printf("Значение: %d, адрес: %x\n", valNum3, &valNum3)
+	fmt.Printf("Значение: %d, адрес: %x\n\n", valNum4, &valNum4)
+	// адреса увеличиваются, как правило на величину типа пееременной INT (в х64 системах это 8 байт)
 
 	fmt.Println("Задача 5.5")
 	change(pntStr)
