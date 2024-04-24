@@ -1,5 +1,12 @@
-module github.com/zmaxic1978/Go-Developer-Tool
+module multiversion
 
 go 1.22.0
 
-require github.com/zmaxic1978/Go-Developer-Tool/my_module v0.0.0-20240423170344-7b8fa1fec441
+replace github.com/zmaxic1978/FooModule/100 => github.com/zmaxic1978/FooModule v1.0.0
+
+replace github.com/zmaxic1978/FooModule/110 => github.com/zmaxic1978/FooModule v1.1.0
+
+require (
+	github.com/zmaxic1978/FooModule/100 v0.0.0-00010101000000-000000000000
+	github.com/zmaxic1978/FooModule/110 v0.0.0-00010101000000-000000000000
+)
