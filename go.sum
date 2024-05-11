@@ -2,3 +2,11 @@ github.com/zmaxic1978/FooModule v1.0.0 h1:CUX+QeBiWVGHgsBfA4OEMnr0OalALOi37I0PdO
 github.com/zmaxic1978/FooModule v1.0.0/go.mod h1:8hVL3C51PltTlwhQlXyYt+QBLfoPZNTHp/92gkmVNvE=
 github.com/zmaxic1978/FooModule v1.1.0 h1:xr9YUt22ZGX68AOaWA/LiNRyJXXRxFCpih32l+OL4HM=
 github.com/zmaxic1978/FooModule v1.1.0/go.mod h1:8hVL3C51PltTlwhQlXyYt+QBLfoPZNTHp/92gkmVNvE=
+github.com/zmaxic1978/trans_mod v1.0.0 h1:pnmb7QeOsJfD5LNZPRYtlRIuCeXPgwPuOhjRQe57A5c=
+github.com/zmaxic1978/trans_mod v1.0.0/go.mod h1:7NgD2e6uYqkckSODIyPWvzQ2RHTO7ghPKtJn97oG0q0=
+github.com/zmaxic1978/trans_mod v1.1.0 h1:ohlf8AlXZlJczT/oiJc0gnzZTpZvRKRXNe66Z1P/FxE=
+github.com/zmaxic1978/trans_mod v1.1.0/go.mod h1:7NgD2e6uYqkckSODIyPWvzQ2RHTO7ghPKtJn97oG0q0=
+github.com/zmaxic1978/trans_mod/v2 v2.0.0 h1:NnH9Yo83FIf22lGY8anveedGMjDmwq1WBaZMpc6u8OA=
+github.com/zmaxic1978/trans_mod/v2 v2.0.0/go.mod h1:EqXTc7rdltzEoCpQnxNdha/ZoG5F/rQevgWngbFQZZQ=
+github.com/zmaxic1978/trans_mod/v2 v2.1.0 h1:na9o0c20pyuAeuT9IbixhfWxTb9S3gF1GDeZHmVhGAU=
+github.com/zmaxic1978/trans_mod/v2 v2.1.0/go.mod h1:EqXTc7rdltzEoCpQnxNdha/ZoG5F/rQevgWngbFQZZQ=
