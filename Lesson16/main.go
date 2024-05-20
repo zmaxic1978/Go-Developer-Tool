@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"sync"
+	"sync/atomic"
 	"time"
 )
 
@@ -96,7 +97,7 @@ func main() {
 
 	fmt.Println("Задача 16.5")
 	wg5 := sync.WaitGroup{}
-	flag := 0
+	var flag int32 = 0
 	for i := 1; i <= 10; i++ {
 		num := i
 		wg5.Add(1)
@@ -104,7 +105,8 @@ func main() {
 			defer wg5.Done()
 			for {
 				fmt.Println("сложные вычисления горутины:", num)
-				if flag == 1 {
+				flg := atomic.LoadInt32(&flag)
+				if flg == 1 {
 					break
 				}
 				time.Sleep(time.Second)
@@ -116,7 +118,7 @@ func main() {
 	go func() {
 		time.Sleep(3 * time.Second)
 		fmt.Println("ой, всё!")
-		flag = 1
+		atomic.AddInt32(&flag, 1)
 	}()
 	wg5.Wait()
 	fmt.Println()
